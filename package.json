@@ -2,6 +2,9 @@
   "name": "masterclassTypescript",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
   "repository": "git@github.com:hicolazu/masterclassTypescript.git",
   "author": "Henrico <henrico.almeida@fcamara.com.br>",
   "license": "MIT",
