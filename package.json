@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/index.js"
+    "dev:server": "ts-node-dev --respawn --transpileOnly src/index.ts"
   },
   "repository": "git@github.com:hicolazu/masterclassTypescript.git",
   "author": "Henrico <henrico.almeida@fcamara.com.br>",
@@ -13,6 +13,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.9.5"
   }
 }
