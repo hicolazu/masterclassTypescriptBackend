@@ -1,0 +1,17 @@
+Configurando o eslint com Typescript: 
+  º Dev Dependências: 
+                  - eslint 
+                  - @typescript-eslint/parser
+                  - @typescript-eslint/eslint-plugin  
+  º Configuração do eslint
+                  - yarn eslint --init 
+                  - padrão: standard 
+
+
+Configurando o prettier com Typescript: 
+  º Dev Dependências: 
+                  - prettier
+                  - eslint-config-prettier
+                  - eslint-plugin-prettier  
+  º Configuração do prettier
+                  - Adicionar 'prettier/@typescript-eslint' no extends do .eslintrc.js

@@ -6,7 +6,7 @@ interface IMailTo {
 interface IMailMessage {
     subject: string,
     body: string,
-    attachment?: string[] 
+    attachment?: string[],
 }
 
 interface MessageDTO {
@@ -18,10 +18,10 @@ interface IMailService {
     sendMail(request: MessageDTO): void,
 }
 
-class EmailService implements IMailService{
-    sendMail({ to, message }: MessageDTO) {
-        console.log(`Email enviado para ${to.name}: ${message.subject}`);
-    }
+class EmailService implements IMailService {
+  sendMail ({ to, message }: MessageDTO) {
+    console.log(`Email enviado para ${to.name}: ${message.subject}`)
+  }
 }
 
-export default EmailService;
+export default EmailService
